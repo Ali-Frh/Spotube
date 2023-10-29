@@ -1,1 +1,1 @@
-{"proxyenabled": true, "ffmpeg_path": "bin\\ffmpeg.exe", "proxyurl": "socks5://127.0.0.1:1080"}
+{"proxyenabled": false, "ffmpeg_path": "bin\\ffmpeg.exe", "proxyurl": "socks5://127.0.0.1:1080"}
