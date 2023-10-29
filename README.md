@@ -30,10 +30,10 @@ then add your favorite songs with add panel and play them.
 you can save current playlist by save button, it goes on playlist.json  
 
 ## Credits:
-yt_dlp backbone of the project
-[YoutubeSearch](https://github.com/joetats/youtube_search) (btw i forked it and added proxy support)
-ffmpeg for conversion stuff (webm -> mp3)
-PyQt5 For GUI
+yt_dlp backbone of the project  
+[YoutubeSearch](https://github.com/joetats/youtube_search) (btw i forked it and added proxy support)  
+ffmpeg for conversion stuff (webm -> mp3)  
+PyQt5 For GUI     
 
 ## Disclaimer
 im just a developer, i made my hobby which is this project in this case, i dont care if you burn your computer or even your house with my program  
