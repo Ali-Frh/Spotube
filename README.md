@@ -17,6 +17,7 @@ dont care about mac
 - multi theme if people liked this project
 - exception for weird or corrupt playlist files
 - multi playlist feature
+- some good hotkeys (or sync it with multimedia buttons on laptops)
 
 ## Known issues:
 - acting weird while internet is unstable and crashes when you are disconnected
@@ -27,6 +28,12 @@ well, when you open it, it creates settings.json and keeps [ffmpeg path, proxy s
 first you should setup ffmpeg.exe path (relative or absolute) then set proxy or enable your vpn if you live in a cave  
 then add your favorite songs with add panel and play them.  
 you can save current playlist by save button, it goes on playlist.json  
+
+## Credits:
+yt_dlp backbone of the project
+[YoutubeSearch](https://github.com/joetats/youtube_search) (btw i forked it and added proxy support)
+ffmpeg for conversion stuff (webm -> mp3)
+PyQt5 For GUI
 
 ## Disclaimer
 im just a developer, i made my hobby which is this project in this case, i dont care if you burn your computer or even your house with my program  
