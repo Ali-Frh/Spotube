@@ -17,7 +17,7 @@ dont care about mac
 - multi theme if people liked this project
 - exception for weird or corrupt playlist files
 - multi playlist feature
-- some good hotkeys (or sync it with multimedia buttons on laptops)
+- some good hotkeys (or make it compatible with multimedia buttons on laptops)
 
 ## Known issues:
 - acting weird while internet is unstable and crashes when you are disconnected
