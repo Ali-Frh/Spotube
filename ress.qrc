@@ -1,0 +1,15 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>stop-button.png</file>
+    <file>icon/diskette.png</file>
+    <file>icon/floppy-disk.png</file>
+    <file>icon/folder.png</file>
+    <file>icon/forward-button.png</file>
+    <file>icon/minus.png</file>
+    <file>icon/mute-speaker.png</file>
+    <file>icon/pause.png</file>
+    <file>icon/plus-symbol-button.png</file>
+    <file>icon/stop-button.png</file>
+    <file>pause.png</file>
+  </qresource>
+</RCC>
