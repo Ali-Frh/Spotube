@@ -163,6 +163,10 @@ class MyDialog(QDialog):
         if not os.path.exists(self.ffmpeg_path):
             self.alert("Dude, Please set your ffmpeg path in settings section (the gear icon)\nIts Used for some conversion stuff and its vital.")
             return
+        if self.playlist.rowCount() == 0:
+            self. alert("There is no track dude! Add some songs first.")
+            return
+
         # self.playing=False
         if self.playing:
             if self.paused:
@@ -464,6 +468,13 @@ class MyDialog(QDialog):
         self.playing = False
 
     def nextshit(self):
+        if self.playlist.rowCount() == 1:
+            self. alert("Have you seen any other tracks? Which drug are you high on?")
+            return
+        if self.playlist.rowCount() == 0:
+            self. alert("There is no track dude! Which drug are you high on?")
+            return
+
         self.player.stop()
         if self.playlistadd:
             self.moverow(0,self.playlist.rowCount())
@@ -475,8 +486,21 @@ class MyDialog(QDialog):
     def prevshit(self):
         
         if self.playlistadd:
+            if self.playlist.rowCount() == 1:
+                self. alert("Have you seen any other tracks? Which drug are you high on?")
+                return
+            if self.playlist.rowCount() == 0:
+                self. alert("There is no track dude! Which drug are you high on?")
+                return
+
             self.player.stop()
+           
+          #  self.playlist.setRowCount(row + 1)
+
+            self.playlist.insertRow(0)
+            
             self.moverow(self.playlist.rowCount()-1, 0)
+            self.playlist.removeRow(self.playlist.rowCount()-1 )
             self.playing = False
             self.test()
         else:
