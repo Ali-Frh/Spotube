@@ -18,6 +18,8 @@ dont care about mac
 - exception for weird or corrupt playlist files
 - multi playlist feature
 - some good hotkeys (or make it compatible with multimedia buttons on laptops)
+- Shuffle Button (or a Scramble Playlist Button)
+- maybe kill the whole ffmpeg setting and follow system's env.
 
 ## Known issues:
 - acting weird while internet is unstable and crashes when you are disconnected
