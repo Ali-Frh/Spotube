@@ -531,7 +531,7 @@ class MyDialog(QDialog):
         t = z.exec_()
         import webbrowser
         if t == 0:
-            webbrowser.open("https://Myass.com")
+            webbrowser.open("https://github.com/Ali-Frh/Spotube")
         elif t == 1:
             webbrowser.open("https://github.com/ALi-Frh")
         else:
