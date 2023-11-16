@@ -2,13 +2,19 @@
 Listen to Youtube music videos, Save them like Spotify
 
 ## Project Status:
-Works fine on windows  
+Works fine on windows -> v1.0 released  
 not tested on linux  
 dont care about mac  
 
+## Usage:
+- on windows, get latest release from releases  ([HERE](https://github.com/Ali-Frh/Spotube/releases))  
+then follow instructions on the release page.
+- on linux and mac its experimental, you have to clone this, then run with local python  
+ps. change ffmpeg.exe to ffmpeg on the settings
+
 ## TODO:
-- Make executable pyinstaller  
-- ship ffmpeg with it on windows  
+- ~~Make executable pyinstaller~~  
+- ~~ship ffmpeg with it on windows~~
 - make it compatible with the linux systems  
 - Make some banner for this repo  
 - maybe Persian Language
@@ -19,7 +25,6 @@ dont care about mac
 - multi playlist feature
 - some good hotkeys (or make it compatible with multimedia buttons on laptops)
 - Shuffle Button (or a Scramble Playlist Button)
-- maybe kill the whole ffmpeg setting and follow system's env.
 
 ## Known issues:
 - acting weird while internet is unstable and crashes when you are disconnected
@@ -32,10 +37,14 @@ then add your favorite songs with add panel and play them.
 you can save current playlist by save button, it goes on playlist.json  
 
 ## Credits:
-yt_dlp backbone of the project  
-[YoutubeSearch](https://github.com/joetats/youtube_search) (btw i forked it and added proxy support)  
-ffmpeg for conversion stuff (webm -> mp3)  
-PyQt5 For GUI     
+- **yt_dlp**   
+backbone of the project  
+- **[YoutubeSearch](https://github.com/joetats/youtube_search)**  
+(btw i forked it and added proxy support)  
+- **ffmpeg** 
+for conversion stuff (webm -> mp3)  
+- **PyQt5**
+For GUI     
 
 ## Disclaimer
 im just a developer, i made my hobby which is this project in this case, i dont care if you burn your computer or even your house with my program  
