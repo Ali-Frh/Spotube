@@ -1,3 +1,7 @@
+<p align="center">
+<img src="https://github.com/Ali-Frh/Spotube/assets/16538325/f453201a-0c16-4011-9d46-56b58c2166c6" />
+</p>
+
 # Spotube
 Listen to Youtube music videos, Save them like Spotify
 
